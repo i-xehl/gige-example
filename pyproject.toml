@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "gige vision example"
+version = "0.1.0"
+description = ""
+authors = ["abdulaziz"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.7 < 4"
+opencv-python = "^4.9.0.80"
+harvesters = "^1.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
